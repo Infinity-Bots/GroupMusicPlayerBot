@@ -7,13 +7,14 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_sticker(" CAACAgIAAx0CVsbI6AACPwNgqWejAzgsQRKlL-mSyw3uttDMDQACYjcAAuCjggcSvw6d3PYOgR8E")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+        I can play music in your group's voice call.
+currently playing on [Anime Loverz](https://t.me/animeloversreborn).
 
-Add me to your group and play music freely!**
+
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -22,10 +23,10 @@ Add me to your group and play music freely!**
                         "🛠 Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "Group", url="https://t.me/animeloversreborn"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "Owner", url="sanjitsinha"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +44,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "How to use", url="https://telegra.ph/file/cee4383ec7a5c19be9590.jpg")
                 ]
             ]
         )
