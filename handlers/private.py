@@ -13,6 +13,8 @@ async def start(_, message: Message):
 
 Saya bisa memutarkan musik di group anda dengan nyaman,penghantar tidur juga tapi gak bisa ngisi hati kalian. Manage by [ᴇxᴇᴄᴜᴛᴏʀ](https://t.me/penjelajahdimensi).
 
+Klik disini untuk tau cara play nya "📀 Cara Play lagunya", url=https://telegra.ph/ᴇxᴇᴄᴜᴛᴏʀ-06-27
+
 Tambahkan saya ke group untuk menikmati alunan musiknya!**
         """,
         reply_markup=InlineKeyboardMarkup(
