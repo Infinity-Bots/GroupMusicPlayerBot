@@ -11,7 +11,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Executor](https://t.me/penjelajahdimensi).
+Saya bisa memutarkan musik di group anda dengan nyaman,penghantar tidur juga tapi gak bisa ngisi hati kalian. Manage by [ᴇxᴇᴄᴜᴛᴏʀ](https://t.me/penjelajahdimensi).
 
 Add me to your group and play music freely!**
         """,
@@ -22,10 +22,10 @@ Add me to your group and play music freely!**
                         "🌬 Group Support", url="https://t.me/thisrevolution")
                   ],[
                     InlineKeyboardButton(
-                        "Manage By Executor", url="https://t.me/penjelajahdimensi"
+                        "📸 Owner Fake", url="https://t.me/penjelajahdimensi"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/OfiicialRevolution"
+                        "💕 Suara Isi Hati 💕", url="https://t.me/OfiicialRevolution"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/joinchat/zk3lrq5K2wQxMjI1")
+                        "💞 Suara Isi Hati 💕", url="https://t.me/ohempty")
                 ]
             ]
         )
