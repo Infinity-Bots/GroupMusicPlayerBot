@@ -11,25 +11,27 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+Saya bisa memutarkan musik di group anda dengan nyaman,penghantar tidur juga tapi gak bisa ngisi hati kalian. Manage by [ᴇxᴇᴄᴜᴛᴏʀ](https://t.me/penjelajahdimensi).
 
-Add me to your group and play music freely!**
+Klik disini untuk tau cara play nya "📀 Cara Play lagunya", url=https://telegra.ph/ᴇxᴇᴄᴜᴛᴏʀ-06-27
+
+Tambahkan saya ke group untuk menikmati alunan musiknya!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot")
+                        "🌬 Group Support", url="https://t.me/thisrevolution")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "📸 Owner Fake", url="https://t.me/penjelajahdimensi"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "💕 Suara Isi Hati 💕", url="https://t.me/OfiicialRevolution"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/MemewMusicbot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +45,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "💞 Suara Isi Hati 💕", url="https://t.me/ohempty")
                 ]
             ]
         )
