@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/Infinity_BOTs")
+                        text="father 🔊",
+                        url="https://t.me/abhinasroy")
                    
                 ]
             ]
